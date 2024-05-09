@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cancel-contexts"
-version = "0.1.1"
+version = "0.1.2"
 description = "Realisation for canceling contexts (cancelled tokens) for Python"
 authors = ["Denis Novikov <alpden550@gmail.com>"]
 readme = "README.md"
