@@ -1,5 +1,12 @@
 # Cancel-contexts
 
+[![CI/RUFF/TESTS](https://github.com/alpden550/cancel-contexts/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/alpden550/cancel-contexts/actions/workflows/python-app.yml)
+[![PyPI version](https://badge.fury.io/py/cancel-contexts.svg)](https://badge.fury.io/py/cancel-contexts)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/cancel-contexts)](https://pypi.org/project/cancel-contexts/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cancel-contexts)](https://pypi.org/project/cancel-contexts/)
+[![PyPI - License](https://img.shields.io/pypi/l/cancel-contexts)](https://github.com/alpden550/cancel-contexts/blob/main/LICENSE)
+[![PyPI - Status](https://img.shields.io/pypi/status/cancel-contexts)](https://pypi.org/project/cancel-contexts/)
+ 
 This is a simple implementation of cancel-contexts (cancel tokens is C#) in Python. It is inspired by the Go programming language's context package.
 
 - CancelContext is a simple class that can be used to manually cancel.
