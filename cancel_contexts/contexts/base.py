@@ -38,9 +38,7 @@ class BaseContext:
             self.__cancelled = value
 
     def check_cancelled(self, msg: str | None = None) -> None:
-        if self.cancelled:
-            msg = msg or "Context was cancelled"
-            raise self.exception(msg)
+        raise NotImplementedError
 
     def cancel(self) -> None:
         raise NotImplementedError
