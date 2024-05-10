@@ -4,3 +4,7 @@ class BaseCancelContextError(Exception):
 
 class ContextCancelledError(BaseCancelContextError):
     pass
+
+
+class ContextTimeOutError(BaseCancelContextError):
+    pass
